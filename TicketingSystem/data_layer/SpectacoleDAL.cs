@@ -14,7 +14,7 @@ namespace TicketingSystem.data_layer
     class SpectacoleDAL
     {
         private static SpectacoleDAL _spectacoleDAL = null;
-        private String _connectionString = @"Data Source=DESKTOP-EQ3D1RM\SQLEXPRESS;Initial Catalog=TicketingSystem;User ID=Mihai;Password=Nicusor20@";
+        private String _connectionString = @"Data Source=DESKTOP-EQ3D1RM\SQLEXPRESS;Initial Catalog=TicketingSystem;User ID=Mihai;Password=password";
         SqlConnection _conn = null;
 
         public SpectacoleDAL()
